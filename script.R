@@ -189,7 +189,7 @@ plot_final <-
                  legend.text = ggplot2::element_text(margin = ggplot2::margin(l = -1,
                                                                               r = 1,
                                                                               t = -7,
-                                                                              b = -5,
+                                                                              b = -4,
                                                                               unit = "mm"),
                                                      size = 12 * 4.5))
 
@@ -200,7 +200,7 @@ plot_final <-
 ggplot2::ggsave(filename = "neutron-density_by_lithology.png",
                 plot = plot_final,
                 width = 235,
-                height = 340,
+                height = 342,
                 units = "mm",
                 dpi = 600)
 
