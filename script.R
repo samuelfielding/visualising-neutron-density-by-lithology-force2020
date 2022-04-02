@@ -129,7 +129,7 @@ plot_final <-
                       ncol = 3,
                       strip.position = "top") +
   ggplot2::labs(title = "Lithology distributions in neutron-density log space",
-                subtitle = paste0("98 wells from across the Viking Graben, ", format(nrow(data_wells), big.mark = ","), " observations from the Rotliegend to the Nordland"),
+                subtitle = paste0("98 wells from the Norwegian North Sea, ", format(nrow(data_wells), big.mark = ","), " observations from the Rotliegend to the Nordland"),
                 x = "NPHI (frac.)",
                 y = bquote("RHOB (g c"*m^-3*")"),
                 caption = "Data: FORCE Machine Learning Competition training set (2020, doi: 10.5281/zenodo.4351156), Map author: Sam Fielding, Map licence: CC BY-SA 4.0") +
