@@ -17,6 +17,7 @@ showtext::showtext_auto()
 
 
 # PULL DATA FROM FORCE 2020 GITHUB REPO AND SAVE --------------------------
+
 download.file(url = "https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition/raw/master/lithology_competition/data/train.zip",
               destfile = "data_wells.zip")
 
