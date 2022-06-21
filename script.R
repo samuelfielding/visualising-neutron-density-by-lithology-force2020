@@ -133,7 +133,7 @@ plot_final <-
                 subtitle = paste0("98 wells from the Norwegian North Sea, ", format(nrow(data_wells), big.mark = ","), " observations from the Rotliegend to the Nordland"),
                 x = "NPHI (frac.)",
                 y = bquote("RHOB (g c"*m^-3*")"),
-                caption = "Data: FORCE Machine Learning Competition training set (2020, doi: 10.5281/zenodo.4351156), Map author: Sam Fielding, Map licence: CC BY-SA 4.0") +
+                caption = "Data: FORCE Machine Learning Competition training set (2020, doi: 10.5281/zenodo.4351156), Plot author: Sam Fielding, Plot licence: CC BY-SA 4.0") +
   ggplot2::theme_bw() +
   ggplot2::theme(text = ggplot2::element_text(family = "ubuntu",
                                               color = "#4e4d47",
